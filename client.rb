@@ -1,5 +1,6 @@
 require 'lolsoap'
 require 'httpclient'
+require 'awesome_print'
 
 class Client
   attr_reader :http_client, :client
